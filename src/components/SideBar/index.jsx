@@ -184,7 +184,7 @@ const SideBar = () => {
 				<div class="row">
 					<div>
 						<div class="container">
-							<h6 class="mt-4">873 imóveis à venda</h6>
+							<h6 class="m-4">873 imóveis à venda em Florianópolis</h6>
 						{/* <PropertyCard /> */}
 						<HorizontalCard />
 						<HorizontalCard />

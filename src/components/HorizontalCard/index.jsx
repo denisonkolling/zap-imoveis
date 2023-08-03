@@ -5,25 +5,25 @@ const HorizontalCard = () => {
 		
 			<div class="container my-2">
 				<div class="card">
-					<div class="row ">
+					<div class="row">
 						<div class="col-md-7">
-							<div class="card-block m-2">
-								<h5 class="card-title">
+							<div class="card-block m-4">
+								<h6 class="card-title">
 									Apartamento com 2 Quartos à venda, 80m² - Canto
-								</h5>
-								<p class="card-text">
+								</h6>
+								<p class="card-text fs-6 mt-4">
 									Com 2 quartos, sendo 2 suítes, e 3 banheiros, você terá espaço
 									de sobra para acomodar sua família com total privacidade. Além
 									disso, o apartamento conta com uma ampla varanda, perfeita
 									para desfrutar da vista panorâmica e relaxar.
 								</p>
-								<p class="card-text">
+								<p class="card-text mt-4">
 									80m² - 2 quartos - 3 banheiros - 2 vagas
 								</p>
-								<h6>R$ 890.000,00</h6>
-								<p>Condomínio R$ 570 | IPTU R$ 1.200</p>
+								<h6 class="card-text mt-4">R$ 890.000,00</h6>
+								<p className='fw-light'>Condomínio R$ 570 | IPTU R$ 1.200</p>
 								
-								<a href="#" class="mt-auto btn btn-outline-dark">
+								<a href="#" class="mt-2 btn btn-outline-dark">
 									Mensagem
 								</a>
 							</div>
