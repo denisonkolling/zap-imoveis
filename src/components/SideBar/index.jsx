@@ -1,11 +1,13 @@
 import React from 'react';
 import './style.css';
+import PropertyCard from '../PropertyCard';
+import HorizontalCard from '../HorizontalCard';
 
 const SideBar = () => {
 	return (
 		<>
-			<div class="container d-flex" id="wrapper">
-				<div class="col-3 bg-light border-right vh-100" id="sidebar-wrapper">
+			<div class="container d-flex">
+				<div class="col-3 bg-light vh-100">
 					<div className="d-flex justify-content-center">
 						<a href="#" class="m-2 text-decoration-none fw-bold text-black">
 							Comprar
@@ -182,19 +184,12 @@ const SideBar = () => {
 				<div class="row">
 					<div>
 						<div class="container">
-							<h1 class="mt-2">Simple Sidebar</h1>
-							<p>
-								The starting state of the menu will appear collapsed on smaller
-								screens, and will appear non-collapsed on larger screens. When
-								toggled using the button below, the menu will change.
-							</p>
-							<p>
-								Make sure to keep all page content within the{' '}
-								<code>#page-content-wrapper</code>. The top navbar is optional,
-								and just for demonstration. Just create an element with the{' '}
-								<code>#menu-toggle</code> ID which will toggle the menu when
-								clicked.
-							</p>
+							<h6 class="mt-4">873 imóveis à venda</h6>
+						{/* <PropertyCard /> */}
+						<HorizontalCard />
+						<HorizontalCard />
+						<HorizontalCard />
+						<HorizontalCard />
 						</div>
 					</div>
 				</div>
