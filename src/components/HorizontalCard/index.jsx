@@ -1,4 +1,5 @@
-import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLocationDot, faMap } from '@fortawesome/free-solid-svg-icons';
 
 const HorizontalCard = () => {
 	return (
@@ -23,8 +24,11 @@ const HorizontalCard = () => {
 								<h6 class="card-text mt-4">R$ 890.000,00</h6>
 								<p className='fw-light'>Condomínio R$ 570 | IPTU R$ 1.200</p>
 								
+								<a href="#" class="mt-2 btn btn-outline-dark me-2">
+									Localização <FontAwesomeIcon icon={faLocationDot} />
+								</a>
 								<a href="#" class="mt-2 btn btn-outline-dark">
-									Mensagem
+									Mapa <FontAwesomeIcon icon={faMap} />
 								</a>
 							</div>
 						</div>
